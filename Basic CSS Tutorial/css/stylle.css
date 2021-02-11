@@ -16,16 +16,39 @@ h1 {
   background-color: rgb(161, 236, 161);
   font-size: 3rem;
   line-height: 3.5rem;
+  margin-left: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: palevioletred;
+    background-color: powderblue;
+}
+a:hover{
+    color: rgb(24, 12, 12);
+    background-color: coral;
+    text-decoration: underline;
+}
+a:active{
+    color: red;
 }
 .new-color {
-  background-color: rgb(64, 175, 107);
-  color: rgba(0, 0, 255, 0.3);
+  background-color: #fd3a69;
+  color: #120078;
+  font-size: 1.2rem;
 }
 p {
   font-family: "Courier New", Courier, monospace;
   font-weight: normal;
   letter-spacing: -0.2rem;
   word-spacing: 0.3rem;
+  margin-left: 0.5rem
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .box {
   background-color: seagreen;
@@ -38,6 +61,9 @@ body{
     background-color: lightblue;
     max-width: 1000px;
     margin: 0 auto;
+    background-image: url("/img/G4.png");
+    background-position: center;
+    background-repeat: repeat-y;
 }
 .standard-box {
   box-sizing: content-box;
